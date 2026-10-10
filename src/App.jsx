@@ -39,8 +39,8 @@ import {
   SUITS,
   RESOURCES,
 } from "../game/data.js";
-import errata from "../data/errata.runtime.json";
-import faq from "../data/faq.runtime.json";
+import errata from "../data/errata.json";
+import faq from "../data/faq.json";
 import Board, { sprite } from "./Board.jsx";
 import TurnTimers, { ClockChip } from "./TurnTimers.jsx";
 import BattleGuide from "./BattleGuide.jsx";

@@ -20,9 +20,7 @@ service-account*.json
 playwright-report/
 test-results/
 coverage/
-# Local publisher content is not part of the open-source distribution.
-public/assets/*
-!public/assets/fonts/
+# Local overrides and generated files.
 data/private/
 data/*.runtime.json
 # Browser checks can capture private table state.

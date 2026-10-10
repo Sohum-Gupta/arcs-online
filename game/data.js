@@ -1,4 +1,4 @@
-import catalogue from "../data/cards.runtime.json" with { type: "json" };
+import catalogue from "../data/cards.json" with { type: "json" };
 export const CARDS = Object.fromEntries(
   catalogue.map((c) => [
     c.id.replace("ARCS-", ""),

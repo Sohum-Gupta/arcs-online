@@ -28,11 +28,9 @@
     "test:shared-board": "node scripts/shared-board-check.mjs",
     "test:timeouts": "node --test tests/timeout.test.js tests/timeout-server.test.js",
     "test:timeout-simulations": "node scripts/timeout-simulations.mjs",
-    "assets:prepare": "node scripts/prepare-content.mjs",
-    "assets:import": "node scripts/import-content.mjs",
-    "pretest": "npm run assets:prepare",
-    "prebuild": "npm run assets:prepare",
-    "prestart": "npm run assets:prepare"
+    "pretest": "npm run verify:assets",
+    "prebuild": "npm run verify:assets",
+    "predev": "npm run verify:assets"
   },
   "dependencies": {
     "express": "^5.1.0",

@@ -15,7 +15,6 @@ COPY --from=build /app/public ./public
 COPY --from=build /app/game ./game
 COPY --from=build /app/data ./data
 COPY --from=build /app/server ./server
-COPY --from=build /app/scripts/prepare-content.mjs ./scripts/prepare-content.mjs
 ENV DATA_DIR=/data
 EXPOSE 3001
 CMD ["node", "server/index.js"]

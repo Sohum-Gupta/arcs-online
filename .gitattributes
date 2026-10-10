@@ -1,0 +1,5 @@
+*.webp binary
+*.ttf binary
+*.gz binary
+# Keep checksummed font license files identical on every operating system.
+public/assets/fonts/*.txt text eol=lf

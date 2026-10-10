@@ -1,0 +1,541 @@
+[
+  {
+    "faq": [
+      {
+        "q": "When do you collect the action card?",
+        "a": "At the end of the round, after all players have finished their turns."
+      },
+      {
+        "q": "Can this be stolen once it has been played but not resolved?",
+        "a": "Only cards in the holder's play area can be stolen, so once played this card cannot be stolen."
+      }
+    ],
+    "card": "Admin Union"
+  },
+  {
+    "faq": [
+      {
+        "q": "When do you collect the action card?",
+        "a": "At the end of the round, after all players have finished their turns."
+      },
+      {
+        "q": "Can this be stolen once it has been played but not resolved?",
+        "a": "Only cards in the holder's play area can be stolen, so once played this card cannot be stolen."
+      }
+    ],
+    "card": "Arms Union"
+  },
+  {
+    "faq": [
+      {
+        "q": "When do you collect the action card?",
+        "a": "At the end of the round, after all players have finished their turns."
+      },
+      {
+        "q": "Can this be stolen once it has been played but not resolved?",
+        "a": "Only cards in the holder's play area can be stolen, so once played this card cannot be stolen."
+      }
+    ],
+    "card": "Construction Union"
+  },
+  {
+    "faq": [
+      {
+        "q": "Is Trade blocked by $link:Sworn Guardians$?",
+        "a": "The Trade action is not stealing and is not blocked by $link:Sworn Guardians$."
+      }
+    ],
+    "card": "Elder Broker"
+  },
+  {
+    "faq": [
+      {
+        "q": "Can you give me an example of this Prelude action if I discarded 2 cards plus Farseers?",
+        "a": "You would draw 3 cards from the bottom of the action card discard pile."
+      },
+      {
+        "q": "Can I discard zero cards beyond this one?",
+        "a": "Yes! In this case, just draw 1 card."
+      },
+      {
+        "q": "What happens if the discard pile is very small when I use this?",
+        "a": "Shuffle all of the cards you are discarding before placing them on the discard pile. This is one of the few situations where discard order matters in the game. "
+      }
+    ],
+    "card": "Farseers"
+  },
+  {
+    "faq": [
+      {
+        "q": "How does the supply on this card interact with other cards and abilities?",
+        "a": "The resources count towards ambitions and $link:Keeper's Solidarity$, but they cannot be discarded for $link:Relic Fence$ or be stolen."
+      },
+      {
+        "q": "Do rivals discard even if Tycoon wasn't scored?",
+        "a": "Yes."
+      },
+      {
+        "q": "Can I discard this even if there is nothing to steal?",
+        "a": "Yes. Any card that says you can discard it to do something else can simply be discarded."
+      }
+    ],
+    "card": "Fuel Cartel"
+  },
+  {
+    "faq": [
+      {
+        "q": "In what order do you choose to seize the initiative and declare an ambition?",
+        "a": "Either order."
+      },
+      {
+        "q": "How does this interact with '7' action cards and $link:Faithful Cards$?",
+        "a": "For '7' action cards, you may declare any ambition. For Faithful cards, you may declare an ambition based on the current Faith, such as $link:Pluralistic Faith$."
+      }
+    ],
+    "card": "Galactic Bards"
+  },
+  {
+    "faq": [
+      {
+        "q": "How does the supply on this card interact with other cards and abilities?",
+        "a": "The resources count towards ambitions and $link:Keeper's Solidarity$, but they cannot be discarded for $link:Relic Fence$ or be stolen."
+      },
+      {
+        "q": "Do rivals discard even if Tycoon wasn't scored?",
+        "a": "Yes."
+      },
+      {
+        "q": "Can I discard this even if there is nothing to steal?",
+        "a": "Yes. Any card that says you can discard it to do something else can simply be discarded."
+      }
+    ],
+    "card": "Material Cartel"
+  },
+  {
+    "faq": [
+      {
+        "q": "When do you collect the action card?",
+        "a": "At the end of the round, after all players have finished their turns."
+      },
+      {
+        "q": "Can this be stolen once it has been played but not resolved?",
+        "a": "Only cards in the holder's play area can be stolen, so once played this card cannot be stolen."
+      }
+    ],
+    "card": "Spacing Union"
+  },
+  {
+    "faq": [
+      {
+        "q": "How many cards can I influence with **Bold**?",
+        "a": "You may put up to one agent on each card in the Court."
+      }
+    ],
+    "card": "Demagogue"
+  },
+  {
+    "faq": [
+      {
+        "q": "Do my Influence and Secure actions need to be on the same card?",
+        "a": "You can influence and secure different cards."
+      },
+      {
+        "q": "Do I have to secure after I influence?",
+        "a": "You must perform a legal secure after you influence. (You must have a legal target to secure.) Otherwise the influence must be undone."
+      },
+      {
+        "q": "Can I declare without giving away a Guild card if I have none, or if I'm using Populist Demands?",
+        "a": "No. Giving away a Guild is a mandatory cost for all declares."
+      }
+    ],
+    "card": "Feastbringer"
+  },
+  {
+    "faq": [
+      {
+        "q": "If a resource stack is empty, can I still tax it to then gain a Fuel from *Insatiable*?",
+        "a": "You can tax a city even if its resource stack is empty. You do not gain the first resource into your area."
+      }
+    ],
+    "card": "Fuel-Drinker"
+  },
+  {
+    "faq": [
+      {
+        "q": "If a resource stack is empty, can I still tax it to then gain a Psionic from *Attuned*?",
+        "a": "You can tax a city even if its resource stack is empty. You do not gain the first resource into your area."
+      }
+    ],
+    "card": "Mystic"
+  },
+  {
+    "faq": [
+      {
+        "q": "If the top card of the Court deck is $link:Populist Demands$, do you trigger *Connected* again?",
+        "a": "Yes, if you declare an undeclared ambition with a drawn $link:Populist Demands$, this ability triggers again."
+      },
+      {
+        "q": "If I secure $link:Farseers$, does *Connected* trigger?",
+        "a": "No. $link:Farseers$ being drawn as a result of Connected does not see the timing window to then trigger its ability to look at a Rival's hand and swap a card with them."
+      }
+    ],
+    "card": "Noble"
+  },
+  {
+    "faq": [
+      {
+        "q": "Can I tax a city once per turn and build a ship in the same turn to use *Ruthless* twice?",
+        "a": "Each turn, you can only tax or build a ship with *Ruthless*, not both."
+      },
+      {
+        "q": "If a city is destroyed with *Ruthless*, when do I provoke Outrage?",
+        "a": "When you destroy a city to tax, you first provoke outrage, then gain the resource from taxing."
+      },
+      {
+        "q": "Does *Ruthless* give me an extra actions, or do the bonus activations of a city or startport counting against my total action pips?",
+        "a": "Hitting the building is an extra action. You don't have to spend an action pip."
+      },
+      {
+        "q": "Can I use *Ruthless* to hit a building even if I do not gain a resource or cannot build a ship?",
+        "a": "Yes, you may hit a building to tax or build even if the action yields nothing."
+      }
+    ],
+    "card": "Overseer"
+  },
+  {
+    "faq": [
+      {
+        "q": "When does Resilient count the number of starports I control?",
+        "a": "Resilient checks the number of starports after battle. If the battle destroys a starport previously controlled by Quartermaster, or if the battle causes the Quartermaster to lose control over a starport, it does not add to the number of repairs."
+      }
+    ],
+    "card": "Quartermaster"
+  },
+  {
+    "faq": [
+      {
+        "q": "Can I choose not to use the two extra dice from *Committed*?",
+        "a": "No, collecting these two dice is mandatory."
+      },
+      {
+        "q": "How does *Disorganized* interact with $link:Predictive Sensors$?",
+        "a": "$link:Predictive Sensors$ is subject to this restriction. When the Rebel uses $link:Predictive Sensors$, they can move in up to 2 ships from each adjacent system. This is because a move is defined as \u201cnumber of Loyal ships from one system to an adjacent system.\u201d"
+      },
+      {
+        "q": "How does Disorganized interact with $link:Force Beams$?",
+        "a": "$link:Force Beams$ ignores this restriction."
+      }
+    ],
+    "card": "Rebel"
+  },
+  {
+    "faq": [
+      {
+        "q": "If you are the $link:Upstart$, have $link:Empath's Bond$, and Empath is declared, can you tax a loyal city that you do not control?",
+        "a": "The \"any\" in $link:Empath's Bond$ should be interpreted as \"non-Loyal,\" and Callow should be rephrased to \u201cYou cannot tax cities that you do not control.\u201d As a result, $link:Empath's Bond$ when active only gives the Upstart the ability to use Rival starports to build and Catapult move."
+      }
+    ],
+    "card": "Upstart"
+  },
+  {
+    "faq": [
+      {
+        "q": "Do I have to move and battle with the same ships with *Tactical*?",
+        "a": "You can move and battle with different ships."
+      },
+      {
+        "q": "Can the *Tactical* move be a Catapult move?",
+        "a": "Yes."
+      },
+      {
+        "q": "Can I do the *Tactical* move if I end up moving to a space with no ships to battle?",
+        "a": "You must perform a legal Battle action after moving (must have a legal target to attack). Otherwise the move must be undone."
+      }
+    ],
+    "card": "Warrior"
+  },
+  {
+    "faq": [
+      {
+        "q": "Can Ancient Holdings hold $link:Golems$?",
+        "a": "Yes, Ancient Holdings provides a resource slot that holds one Golem."
+      }
+    ],
+    "card": "Ancient Holdings"
+  },
+  {
+    "faq": [
+      {
+        "q": "Can I spend a resource to build a city while outraged in that resource?",
+        "a": "Yes, Outrage does not stop you from spending the resource at all. It only stops you from spending it for its standard Prelude action."
+      },
+      {
+        "q": "Do I need to have the resource to build the city?",
+        "a": "Building a Cloud City requires spending a resource of the planet type."
+      },
+      {
+        "q": "If this card has changed hands, can multiple players have an extra city on the same planet?",
+        "a": "No, it is a maximum of one total."
+      }
+    ],
+    "card": "Cloud Cities"
+  },
+  {
+    "faq": [
+      {
+        "q": "How does Empath's Bond interact with the Empire, who is not a Rival?",
+        "a": "This card should have errata provided to change the final sentence to \"*Build ships damaged in systems controlled by anyone else.*\""
+      }
+    ],
+    "card": "Empath's Bond"
+  },
+  {
+    "faq": [
+      {
+        "q": "Is *Fire Rifles* modified by abilities that modify Battle?",
+        "a": "Abilities that modify Battle do not apply to *Fire Rifles*. For example, you cannot use $link:Skirmishers$ to reroll the dice, and you cannot use $link:Gatekeepers$ to collect more dice."
+      },
+      {
+        "q": "How does this interact with the Imperial Truce Law?",
+        "a": "It causes harm in the target system, so you cannot target a Regent in a system with Imperial ships, but you can use Galactic Rifles from a system with Imperial ships."
+      }
+    ],
+    "card": "Galactic Rifles"
+  },
+  {
+    "faq": [
+      {
+        "q": "What happens if the cluster has no cities?",
+        "a": "If a Gate Station is in a cluster with no other city, it has no type. Destroying it provokes no Outrage. Taxing it yields no resource, but it can still be taxed."
+      },
+      {
+        "q": "What happens if this is transferred with $link:Knowledge Set Free$ or scrapped from the $link:Caretaker Act III Objective$?",
+        "a": "If transferred, your cities in gates still operate in the same way. If scrapped, your cities in gates no longer have a type, so they no longer produce resources when taxed and no longer Provoke Outrage when destroyed."
+      },
+      {
+        "q": "If this card has changed hands, can multiple players have a city in the same gate?",
+        "a": "No, it is a maximum of one total."
+      }
+    ],
+    "card": "Gate Stations"
+  },
+  {
+    "faq": [
+      {
+        "q": "What happens if this is transferred with $link:Knowledge Set Free$ or scrapped from the $link:Caretaker Act III Objective$?",
+        "a": "Your starports in gates can still build ships and enable Catapult moves, but you can no longer take Captives with them."
+      },
+      {
+        "q": "If this card has changed hands, can multiple players have a starport in the same gate?",
+        "a": "No, it is a maximum of one total."
+      }
+    ],
+    "card": "Gate Ports"
+  },
+  {
+    "faq": [
+      {
+        "q": "What counts as resources I have?",
+        "a": "Everything in your play area, including resources on cards, even if frozen."
+      }
+    ],
+    "card": "Keeper's Solidarity"
+  },
+  {
+    "faq": [
+      {
+        "q": "Does this interact with Cartel cards?",
+        "a": "A player has the resources on Cartel cards. This means Keeper's Trust applies to those resources."
+      }
+    ],
+    "card": "Keeper's Trust"
+  },
+  {
+    "faq": [
+      {
+        "q": "When the defender has no buildings on the map and I could collect more than 1 raid die, am I restricted by Raider Exosuits?",
+        "a": "If the defender doesn't have any building on the map, you are not subject to the raid dice limit and can collect more than one raid die."
+      }
+    ],
+    "card": "Raider Exosuits"
+  },
+  {
+    "faq": [
+      {
+        "q": "Can you limit which ships are battling?",
+        "a": "Attacker's Loyal ships in the battle system are all \u201cattacking ships\u201d. Therefore, all Loyal ships in the battle system must be fresh at the start of battle to use Signal Breaker."
+      },
+      {
+        "q": "Does Signal Break block the Intercept generated by $link:Mirror Plating$?",
+        "a": "Signal Breaker lets you \u201cignore one intercept you roll\u201d. However, this cannot ignore the intercept added by Mirror Plating, because it is not rolled."
+      },
+      {
+        "q": "Does Signal Break take effect before $link:Railgun Arrays$?",
+        "a": "Signal Breaker checks if all the attacking ships are fresh at the beginning of the battle, before Railgun Arrays deals one hit."
+      }
+    ],
+    "card": "Signal Breaker"
+  },
+  {
+    "faq": [
+      {
+        "q": "Can Sprinter Drives activate more uses of Sprinter Drives?",
+        "a": "No, it is not recursive. The more verbose but correct text is: When you move fresh Loyal ships but not with Sprinter Drives, you may move any of them one more time."
+      },
+      {
+        "q": "Can the bonus move be a Catapult move?",
+        "a": "You can Catapult move with the bonus move if you're moving from a starport."
+      },
+      {
+        "q": "If I Catapult move and drop off ships in gates along my path, which ships can move again?",
+        "a": "Choose a group of any number of fresh Loyal ships that just moved, and move them one more time. So if you dropped off two ships in the same gate, you could move those two ships again."
+      },
+      {
+        "q": "Can I move Imperial ships with the second move?",
+        "a": "No, only ships that are both fresh and Loyal, and that just moved, may take the second move."
+      }
+    ],
+    "card": "Sprinter Drives"
+  },
+  {
+    "faq": [
+      {
+        "q": "If I have no Material or Fuel, can I use Tycoon's Ambition?",
+        "a": "You can use its ability even if you have zero Material and Fuel."
+      },
+      {
+        "q": "How does this interact with $link:Material Cartel$ or $link:Fuel Cartel$?",
+        "a": "Nothing happens to the Material and Fuel on those cards. You can still use Tycoon's Ambition."
+      },
+      {
+        "q": "In the campaign, how does this interact with frozen resources?",
+        "a": "They are not discarded. You can still use Tycoon's Ambition."
+      }
+    ],
+    "card": "Tycoon's Ambition"
+  },
+  {
+    "faq": [
+      {
+        "q": "What if I have none of the matching building in my supply?",
+        "a": "You cannot *Annex* a building if the corresponding Loyal building supply is empty. "
+      }
+    ],
+    "card": "Tyrant's Authority"
+  },
+  {
+    "faq": [
+      {
+        "q": "Does this trigger $link:Gate Ports$?",
+        "a": "No, since this ignores move modifiers."
+      },
+      {
+        "q": "Can you use Force Beams to do a Catapult Move?",
+        "a": "No, Force Beams is strictly to an adjacent system. It cannot start a Catapult move."
+      },
+      {
+        "q": "How does this interact with $link:Passages & The Twisted Passage$?",
+        "a": "You can use Force Beams to Guide ships into the Twisted Passage, but not out of it."
+      }
+    ],
+    "card": "Force Beams"
+  },
+  {
+    "faq": [
+      {
+        "q": "Do resources \"you have\" apply to resources on a Cartel card?",
+        "a": "Yes, you can use resources from a Cartel card for Mythic."
+      },
+      {
+        "q": "Can I Catapult move from a gate that has a starport from $link:Gate Ports$?",
+        "a": "Yes. The ability just indicates that you cannot Catapult move by *using* the starport."
+      }
+    ],
+    "card": "Shaper"
+  },
+  {
+    "faq": [
+      {
+        "q": "Can I use this to simply destroy one of my own ships, even if it does not destroy a non-Loyal one?",
+        "a": "Sure, if you want. Bash it into a planet or asteroid."
+      }
+    ],
+    "card": "Survival Overrides"
+  },
+  {
+    "faq": [
+      {
+        "q": "Can I discard this even if I cannot seize?",
+        "a": "Yes. Any card that says you can discard it to do something else can simply be discarded."
+      }
+    ],
+    "card": "Lattice Spies"
+  },
+  {
+    "faq": [
+      {
+        "q": "Can I discard this even if I cannot steal anything?",
+        "a": "Yes. Any card that says you can discard it to do something else can simply be discarded."
+      }
+    ],
+    "card": "Silver-Tongues"
+  },
+  {
+    "faq": [
+      {
+        "q": "Can I discard this even if I cannot steal anything?",
+        "a": "Yes. Any card that says you can discard it to do something else can simply be discarded."
+      }
+    ],
+    "card": "Silver-Tongues"
+  },
+  {
+    "faq": [
+      {
+        "q": "Can I reroll this multiple times?",
+        "a": "No, only once."
+      }
+    ],
+    "card": "Corsair"
+  },
+  {
+    "faq": [
+      {
+        "q": "Can I reroll this multiple times?",
+        "a": "No, only once."
+      }
+    ],
+    "card": "Seeker Torpedoes"
+  },
+  {
+    "faq": [
+      {
+        "q": "Can I reroll this multiple times?",
+        "a": "No, only once."
+      },
+      {
+        "q": "What counts as resources I have?",
+        "a": "Everything in your play area, including resources on cards, even if frozen."
+      }
+    ],
+    "card": "Skirmishers"
+  },
+  {
+    "faq": [
+      {
+        "q": "If I Ransack the Court to secure this during a battle, do ships I place in the battle system count as attacking ships?",
+        "a": "No."
+      }
+    ],
+    "card": "Mass Uprising"
+  },
+  {
+    "faq": [
+      {
+        "q": "Can I use the move from this card to initiate a Catapult move? ",
+        "a": "No, this card lets you move into the battle system to participate in the battle."
+      }
+    ],
+    "card": "Predictive Sensors"
+  }
+]
