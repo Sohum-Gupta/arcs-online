@@ -1,0 +1,30 @@
+node_modules/
+dist/
+work/
+var/
+.env
+.env.*
+!.env.example
+.railway/
+*.sqlite*
+*.db
+*.db-*
+*.log
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+service-account*.json
+.DS_Store
+playwright-report/
+test-results/
+coverage/
+# Local publisher content is not part of the open-source distribution.
+public/assets/*
+!public/assets/fonts/
+data/private/
+data/*.runtime.json
+# Browser checks can capture private table state.
+docs/*.png
+docs/*simulations*.json

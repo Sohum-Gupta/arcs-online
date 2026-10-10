@@ -1,0 +1,1189 @@
+[
+  {
+    "id": "ARCS-2SETUP01",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/2SETUP01.webp",
+    "imageClass": "rotated",
+    "name": "2 Player Frontiers",
+    "tags": [
+      "Base",
+      "Setup"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-2SETUP02",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/2SETUP02.webp",
+    "imageClass": "rotated",
+    "name": "2 Player Mix Up 1",
+    "tags": [
+      "Base",
+      "Setup"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-2SETUP03",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/2SETUP03.webp",
+    "imageClass": "rotated",
+    "name": "2 Player Homelands",
+    "tags": [
+      "Base",
+      "Setup"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-2SETUP04",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/2SETUP04.webp",
+    "imageClass": "rotated",
+    "name": "2 Player Mix Up 2",
+    "tags": [
+      "Base",
+      "Setup"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-3SETUP01",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/3SETUP01.webp",
+    "imageClass": "rotated",
+    "name": "3 Player Mix Up",
+    "tags": [
+      "Base",
+      "Setup"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-3SETUP02",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/3SETUP02.webp",
+    "imageClass": "rotated",
+    "name": "3 Player Frontiers",
+    "tags": [
+      "Base",
+      "Setup"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-3SETUP03",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/3SETUP03.webp",
+    "imageClass": "rotated",
+    "name": "3 Player Homelands",
+    "tags": [
+      "Base",
+      "Setup"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-3SETUP04",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/3SETUP04.webp",
+    "imageClass": "rotated",
+    "name": "3 Player Core Conflict",
+    "tags": [
+      "Base",
+      "Setup"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-4SETUP01",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/4SETUP01.webp",
+    "imageClass": "rotated",
+    "name": "4 Player Mix Up 1",
+    "tags": [
+      "Base",
+      "Setup"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-4SETUP02",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/4SETUP02.webp",
+    "imageClass": "rotated",
+    "name": "4 Player Mix Up 2",
+    "tags": [
+      "Base",
+      "Setup"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-4SETUP03",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/4SETUP03.webp",
+    "imageClass": "rotated",
+    "name": "4 Player Frontiers",
+    "tags": [
+      "Base",
+      "Setup"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-4SETUP04",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/4SETUP04.webp",
+    "imageClass": "rotated",
+    "name": "4 Player Mix Up 3",
+    "tags": [
+      "Base",
+      "Setup"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-BC01",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/BC01.webp",
+    "name": "Loyal Engineers",
+    "tags": [
+      "Base",
+      "Base Court",
+      "Guild",
+      "Material"
+    ],
+    "meta": {
+      "keys": 3
+    },
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-BC02",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/BC02.webp",
+    "name": "Mining Interest",
+    "tags": [
+      "Base",
+      "Base Court",
+      "Guild",
+      "Material"
+    ],
+    "meta": {
+      "keys": 2
+    },
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-BC03",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/BC03.webp",
+    "name": "Material Cartel",
+    "tags": [
+      "Base",
+      "Base Court",
+      "Guild",
+      "Material"
+    ],
+    "meta": {
+      "keys": 2
+    },
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-BC04",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/BC04.webp",
+    "name": "Admin Union",
+    "tags": [
+      "Base",
+      "Base Court",
+      "Guild",
+      "Material"
+    ],
+    "meta": {
+      "keys": 2
+    },
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-BC05",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/BC05.webp",
+    "name": "Construction Union",
+    "tags": [
+      "Base",
+      "Base Court",
+      "Guild",
+      "Material"
+    ],
+    "meta": {
+      "keys": 2
+    },
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-BC06",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/BC06.webp",
+    "name": "Fuel Cartel",
+    "tags": [
+      "Base",
+      "Base Court",
+      "Guild",
+      "Fuel"
+    ],
+    "meta": {
+      "keys": 2
+    },
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-BC07",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/BC07.webp",
+    "name": "Loyal Pilots",
+    "tags": [
+      "Base",
+      "Base Court",
+      "Guild",
+      "Fuel"
+    ],
+    "meta": {
+      "keys": 3
+    },
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-BC08",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/BC08.webp",
+    "name": "Gatekeepers",
+    "tags": [
+      "Base",
+      "Base Court",
+      "Guild",
+      "Fuel"
+    ],
+    "meta": {
+      "keys": 2
+    },
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-BC09",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/BC09.webp",
+    "name": "Shipping Interest",
+    "tags": [
+      "Base",
+      "Base Court",
+      "Guild",
+      "Fuel"
+    ],
+    "meta": {
+      "keys": 2
+    },
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-BC10",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/BC10.webp",
+    "name": "Spacing Union",
+    "tags": [
+      "Base",
+      "Base Court",
+      "Guild",
+      "Fuel"
+    ],
+    "meta": {
+      "keys": 2
+    },
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-BC11",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/BC11.webp",
+    "name": "Arms Union",
+    "tags": [
+      "Base",
+      "Base Court",
+      "Guild",
+      "Weapon"
+    ],
+    "meta": {
+      "keys": 2
+    },
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-BC12",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/BC12.webp",
+    "name": "Prison Wardens",
+    "tags": [
+      "Base",
+      "Base Court",
+      "Guild",
+      "Weapon"
+    ],
+    "meta": {
+      "keys": 2
+    },
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-BC13",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/BC13.webp",
+    "name": "Skirmishers",
+    "tags": [
+      "Base",
+      "Base Court",
+      "Guild",
+      "Weapon"
+    ],
+    "meta": {
+      "keys": 2
+    },
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-BC14",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/BC14.webp",
+    "name": "Court Enforcers",
+    "tags": [
+      "Base",
+      "Base Court",
+      "Guild",
+      "Weapon"
+    ],
+    "meta": {
+      "keys": 2
+    },
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-BC15",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/BC15.webp",
+    "name": "Loyal Marines",
+    "tags": [
+      "Base",
+      "Base Court",
+      "Guild",
+      "Weapon"
+    ],
+    "meta": {
+      "keys": 3
+    },
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-BC16",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/BC16.webp",
+    "name": "Lattice Spies",
+    "tags": [
+      "Base",
+      "Base Court",
+      "Guild",
+      "Psionic"
+    ],
+    "meta": {
+      "keys": 2
+    },
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-BC17",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/BC17.webp",
+    "name": "Farseers",
+    "tags": [
+      "Base",
+      "Base Court",
+      "Guild",
+      "Psionic"
+    ],
+    "meta": {
+      "keys": 2
+    },
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-BC18",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/BC18.webp",
+    "name": "Secret Order",
+    "tags": [
+      "Base",
+      "Base Court",
+      "Guild",
+      "Psionic"
+    ],
+    "meta": {
+      "keys": 2
+    },
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-BC19",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/BC19.webp",
+    "name": "Loyal Empaths",
+    "tags": [
+      "Base",
+      "Base Court",
+      "Guild",
+      "Psionic"
+    ],
+    "meta": {
+      "keys": 3
+    },
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-BC20",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/BC20.webp",
+    "name": "Silver-Tongues",
+    "tags": [
+      "Base",
+      "Base Court",
+      "Guild",
+      "Psionic"
+    ],
+    "meta": {
+      "keys": 2
+    },
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-BC21",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/BC21.webp",
+    "name": "Loyal Keepers",
+    "tags": [
+      "Base",
+      "Base Court",
+      "Guild",
+      "Relic"
+    ],
+    "meta": {
+      "keys": 3
+    },
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-BC22",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/BC22.webp",
+    "name": "Sworn Guardians",
+    "tags": [
+      "Base",
+      "Base Court",
+      "Guild",
+      "Relic"
+    ],
+    "meta": {
+      "keys": 1
+    },
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-BC23",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/BC23.webp",
+    "name": "Elder Broker",
+    "tags": [
+      "Base",
+      "Base Court",
+      "Guild",
+      "Relic"
+    ],
+    "meta": {
+      "keys": 2
+    },
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-BC24",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/BC24.webp",
+    "name": "Relic Fence",
+    "tags": [
+      "Base",
+      "Base Court",
+      "Guild",
+      "Relic"
+    ],
+    "meta": {
+      "keys": 2
+    },
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-BC25",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/BC25.webp",
+    "name": "Galactic Bards",
+    "tags": [
+      "Base",
+      "Base Court",
+      "Guild",
+      "Relic"
+    ],
+    "meta": {
+      "keys": 1
+    },
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-BC26",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/BC26.webp",
+    "name": "Mass Uprising",
+    "tags": [
+      "Base",
+      "Base Court",
+      "Vox"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-BC27",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/BC27.webp",
+    "name": "Populist Demands",
+    "tags": [
+      "Base",
+      "Base Court",
+      "Vox"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-BC28",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/BC28.webp",
+    "name": "Outrage Spreads",
+    "tags": [
+      "Base",
+      "Base Court",
+      "Vox"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-BC29",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/BC29.webp",
+    "name": "Song of Freedom",
+    "tags": [
+      "Base",
+      "Base Court",
+      "Vox"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-BC30",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/BC30.webp",
+    "name": "Guild Struggle",
+    "tags": [
+      "Base",
+      "Base Court",
+      "Vox"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-BC31",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/BC31.webp",
+    "name": "Call to Action",
+    "tags": [
+      "Base",
+      "Base Court",
+      "Vox"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-L01",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/L01.webp",
+    "name": "Tool-Priests",
+    "tags": [
+      "Base",
+      "Lore"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-L02",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/L02.webp",
+    "name": "Galactic Rifles",
+    "tags": [
+      "Base",
+      "Lore"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-L03",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/L03.webp",
+    "name": "Sprinter Drives",
+    "tags": [
+      "Base",
+      "Lore"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-L04",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/L04.webp",
+    "name": "Mirror Plating",
+    "tags": [
+      "Base",
+      "Lore"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-L05",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/L05.webp",
+    "name": "Hidden Harbors",
+    "tags": [
+      "Base",
+      "Lore"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-L06",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/L06.webp",
+    "name": "Signal Breaker",
+    "tags": [
+      "Base",
+      "Lore"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-L07",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/L07.webp",
+    "name": "Repair Drones",
+    "tags": [
+      "Base",
+      "Lore"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-L08",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/L08.webp",
+    "name": "Gate Ports",
+    "tags": [
+      "Base",
+      "Lore"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-L09",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/L09.webp",
+    "name": "Cloud Cities",
+    "tags": [
+      "Base",
+      "Lore"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-L10",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/L10.webp",
+    "name": "Living Structures",
+    "tags": [
+      "Base",
+      "Lore"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-L11",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/L11.webp",
+    "name": "Gate Stations",
+    "tags": [
+      "Base",
+      "Lore"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-L12",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/L12.webp",
+    "name": "Railgun Arrays",
+    "tags": [
+      "Base",
+      "Lore"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-L13",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/L13.webp",
+    "name": "Ancient Holdings",
+    "tags": [
+      "Base",
+      "Lore"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-L14",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/L14.webp",
+    "name": "Seeker Torpedoes",
+    "tags": [
+      "Base",
+      "Lore"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-LEAD01",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/LEAD01.webp",
+    "name": "Elder",
+    "tags": [
+      "Base",
+      "Leader"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-LEAD02",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/LEAD02.webp",
+    "name": "Mystic",
+    "tags": [
+      "Base",
+      "Leader"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-LEAD03",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/LEAD03.webp",
+    "name": "Fuel-Drinker",
+    "tags": [
+      "Base",
+      "Leader"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-LEAD04",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/LEAD04.webp",
+    "name": "Upstart",
+    "tags": [
+      "Base",
+      "Leader"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-LEAD05",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/LEAD05.webp",
+    "name": "Rebel",
+    "tags": [
+      "Base",
+      "Leader"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-LEAD06",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/LEAD06.webp",
+    "name": "Warrior",
+    "tags": [
+      "Base",
+      "Leader"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-LEAD07",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/LEAD07.webp",
+    "name": "Feastbringer",
+    "tags": [
+      "Base",
+      "Leader"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-LEAD08",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/LEAD08.webp",
+    "name": "Demagogue",
+    "tags": [
+      "Base",
+      "Leader"
+    ],
+    "game": "arcs",
+    "product": "arcsbasegame",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-L15",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/L15.webp",
+    "name": "Predictive Sensors",
+    "tags": [
+      "Leaders and Lore",
+      "Lore"
+    ],
+    "game": "arcs",
+    "product": "leaders-lore",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-L16",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/L16.webp",
+    "name": "Force Beams",
+    "tags": [
+      "Leaders and Lore",
+      "Lore"
+    ],
+    "game": "arcs",
+    "product": "leaders-lore",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-L17",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/L17.webp",
+    "name": "Raider Exosuits",
+    "tags": [
+      "Leaders and Lore",
+      "Lore"
+    ],
+    "game": "arcs",
+    "product": "leaders-lore",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-L18",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/L18.webp",
+    "name": "Survival Overrides",
+    "tags": [
+      "Leaders and Lore",
+      "Lore"
+    ],
+    "game": "arcs",
+    "product": "leaders-lore",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-L19",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/L19.webp",
+    "name": "Empath's Vision",
+    "tags": [
+      "Leaders and Lore",
+      "Lore"
+    ],
+    "game": "arcs",
+    "product": "leaders-lore",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-L20",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/L20.webp",
+    "name": "Empath's Bond",
+    "tags": [
+      "Leaders and Lore",
+      "Lore"
+    ],
+    "game": "arcs",
+    "product": "leaders-lore",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-L21",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/L21.webp",
+    "name": "Keeper's Trust",
+    "tags": [
+      "Leaders and Lore",
+      "Lore"
+    ],
+    "game": "arcs",
+    "product": "leaders-lore",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-L22",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/L22.webp",
+    "name": "Keeper's Solidarity",
+    "tags": [
+      "Leaders and Lore",
+      "Lore"
+    ],
+    "game": "arcs",
+    "product": "leaders-lore",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-L23",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/L23.webp",
+    "name": "Warlord's Cruelty",
+    "tags": [
+      "Leaders and Lore",
+      "Lore"
+    ],
+    "game": "arcs",
+    "product": "leaders-lore",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-L24",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/L24.webp",
+    "name": "Warlord's Terror",
+    "tags": [
+      "Leaders and Lore",
+      "Lore"
+    ],
+    "game": "arcs",
+    "product": "leaders-lore",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-L25",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/L25.webp",
+    "name": "Tyrant's Ego",
+    "tags": [
+      "Leaders and Lore",
+      "Lore"
+    ],
+    "game": "arcs",
+    "product": "leaders-lore",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-L26",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/L26.webp",
+    "name": "Tyrant's Authority",
+    "tags": [
+      "Leaders and Lore",
+      "Lore"
+    ],
+    "game": "arcs",
+    "product": "leaders-lore",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-L27",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/L27.webp",
+    "name": "Tycoon's Ambition",
+    "tags": [
+      "Leaders and Lore",
+      "Lore"
+    ],
+    "game": "arcs",
+    "product": "leaders-lore",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-L28",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/L28.webp",
+    "name": "Tycoon's Charm",
+    "tags": [
+      "Leaders and Lore",
+      "Lore"
+    ],
+    "game": "arcs",
+    "product": "leaders-lore",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-LEAD09",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/LEAD09.webp",
+    "name": "Archivist",
+    "tags": [
+      "Leaders and Lore",
+      "Leader"
+    ],
+    "game": "arcs",
+    "product": "leaders-lore",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-LEAD10",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/LEAD10.webp",
+    "name": "Overseer",
+    "tags": [
+      "Leaders and Lore",
+      "Leader"
+    ],
+    "game": "arcs",
+    "product": "leaders-lore",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-LEAD11",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/LEAD11.webp",
+    "name": "Corsair",
+    "tags": [
+      "Leaders and Lore",
+      "Leader"
+    ],
+    "game": "arcs",
+    "product": "leaders-lore",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-LEAD12",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/LEAD12.webp",
+    "name": "Noble",
+    "tags": [
+      "Leaders and Lore",
+      "Leader"
+    ],
+    "game": "arcs",
+    "product": "leaders-lore",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-LEAD13",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/LEAD13.webp",
+    "name": "Anarchist",
+    "tags": [
+      "Leaders and Lore",
+      "Leader"
+    ],
+    "game": "arcs",
+    "product": "leaders-lore",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-LEAD14",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/LEAD14.webp",
+    "name": "Shaper",
+    "tags": [
+      "Leaders and Lore",
+      "Leader"
+    ],
+    "game": "arcs",
+    "product": "leaders-lore",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-LEAD15",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/LEAD15.webp",
+    "name": "Agitator",
+    "tags": [
+      "Leaders and Lore",
+      "Leader"
+    ],
+    "game": "arcs",
+    "product": "leaders-lore",
+    "locale": "en-US"
+  },
+  {
+    "id": "ARCS-LEAD16",
+    "image": "https://cardcdn.buriedgiant.com/cards/arcs/en-US/LEAD16.webp",
+    "name": "Quartermaster",
+    "tags": [
+      "Leaders and Lore",
+      "Leader"
+    ],
+    "game": "arcs",
+    "product": "leaders-lore",
+    "locale": "en-US"
+  }
+]

@@ -1,0 +1,4 @@
+import fs from 'node:fs';import path from 'node:path';import assert from 'node:assert/strict';import {CARDS,ACTION_CARDS}from'../game/data.js';import {createHash}from'node:crypto';
+const files=[...Object.keys(CARDS).map(id=>`cards/${id}.webp`),...Object.keys(ACTION_CARDS).map(id=>`${id}.webp`)];const manifest=[];
+for(const file of files){const bytes=fs.readFileSync(path.join('public/assets',file));assert.ok(bytes.length>1000,file);assert.equal(bytes.subarray(0,4).toString(),'RIFF',file);assert.equal(bytes.subarray(8,12).toString(),'WEBP',file);manifest.push({file:`assets/${file}`,bytes:bytes.length,sha256:createHash('sha256').update(bytes).digest('hex')})}
+fs.writeFileSync('docs/card-assets.json',JSON.stringify({count:files.length,files:manifest},null,2)+'\n');console.log(`Verified ${files.length} original card image files.`);

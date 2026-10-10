@@ -1,0 +1,492 @@
+{
+  "source": "HRF public Arcs game assets",
+  "reuse": "Arcs artwork belongs to Leder Games / Buried Giant Studios; HRF code MIT license does not establish artwork reuse permission. For private authorized reference use; do not assert the artwork is MIT.",
+  "assets": [
+    {
+      "name": "administration-1",
+      "path": "public/assets/administration-1.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/action/administration-1.webp",
+      "bytes": 101646
+    },
+    {
+      "name": "administration-2",
+      "path": "public/assets/administration-2.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/action/administration-2.webp",
+      "bytes": 105900
+    },
+    {
+      "name": "administration-3",
+      "path": "public/assets/administration-3.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/action/administration-3.webp",
+      "bytes": 99850
+    },
+    {
+      "name": "administration-4",
+      "path": "public/assets/administration-4.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/action/administration-4.webp",
+      "bytes": 98802
+    },
+    {
+      "name": "administration-5",
+      "path": "public/assets/administration-5.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/action/administration-5.webp",
+      "bytes": 97754
+    },
+    {
+      "name": "administration-6",
+      "path": "public/assets/administration-6.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/action/administration-6.webp",
+      "bytes": 94654
+    },
+    {
+      "name": "administration-7",
+      "path": "public/assets/administration-7.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/action/administration-7.webp",
+      "bytes": 90676
+    },
+    {
+      "name": "aggression-1",
+      "path": "public/assets/aggression-1.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/action/aggression-1.webp",
+      "bytes": 95552
+    },
+    {
+      "name": "aggression-2",
+      "path": "public/assets/aggression-2.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/action/aggression-2.webp",
+      "bytes": 100370
+    },
+    {
+      "name": "aggression-3",
+      "path": "public/assets/aggression-3.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/action/aggression-3.webp",
+      "bytes": 102250
+    },
+    {
+      "name": "aggression-4",
+      "path": "public/assets/aggression-4.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/action/aggression-4.webp",
+      "bytes": 100994
+    },
+    {
+      "name": "aggression-5",
+      "path": "public/assets/aggression-5.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/action/aggression-5.webp",
+      "bytes": 100202
+    },
+    {
+      "name": "aggression-6",
+      "path": "public/assets/aggression-6.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/action/aggression-6.webp",
+      "bytes": 100970
+    },
+    {
+      "name": "aggression-7",
+      "path": "public/assets/aggression-7.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/action/aggression-7.webp",
+      "bytes": 110182
+    },
+    {
+      "name": "construction-1",
+      "path": "public/assets/construction-1.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/action/construction-1.webp",
+      "bytes": 99296
+    },
+    {
+      "name": "construction-2",
+      "path": "public/assets/construction-2.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/action/construction-2.webp",
+      "bytes": 105262
+    },
+    {
+      "name": "construction-3",
+      "path": "public/assets/construction-3.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/action/construction-3.webp",
+      "bytes": 110640
+    },
+    {
+      "name": "construction-4",
+      "path": "public/assets/construction-4.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/action/construction-4.webp",
+      "bytes": 109698
+    },
+    {
+      "name": "construction-5",
+      "path": "public/assets/construction-5.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/action/construction-5.webp",
+      "bytes": 110336
+    },
+    {
+      "name": "construction-6",
+      "path": "public/assets/construction-6.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/action/construction-6.webp",
+      "bytes": 110512
+    },
+    {
+      "name": "construction-7",
+      "path": "public/assets/construction-7.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/action/construction-7.webp",
+      "bytes": 95676
+    },
+    {
+      "name": "mobilization-1",
+      "path": "public/assets/mobilization-1.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/action/mobilization-1.webp",
+      "bytes": 93402
+    },
+    {
+      "name": "mobilization-2",
+      "path": "public/assets/mobilization-2.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/action/mobilization-2.webp",
+      "bytes": 98430
+    },
+    {
+      "name": "mobilization-3",
+      "path": "public/assets/mobilization-3.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/action/mobilization-3.webp",
+      "bytes": 91766
+    },
+    {
+      "name": "mobilization-4",
+      "path": "public/assets/mobilization-4.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/action/mobilization-4.webp",
+      "bytes": 90298
+    },
+    {
+      "name": "mobilization-5",
+      "path": "public/assets/mobilization-5.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/action/mobilization-5.webp",
+      "bytes": 84894
+    },
+    {
+      "name": "mobilization-6",
+      "path": "public/assets/mobilization-6.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/action/mobilization-6.webp",
+      "bytes": 86418
+    },
+    {
+      "name": "mobilization-7",
+      "path": "public/assets/mobilization-7.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/action/mobilization-7.webp",
+      "bytes": 76646
+    },
+    {
+      "name": "card-back",
+      "path": "public/assets/card-back.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/action/card-back.webp",
+      "bytes": 87318
+    },
+    {
+      "name": "map-no-slots",
+      "path": "public/assets/map-no-slots.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/map-no-slots.webp",
+      "bytes": 605066
+    },
+    {
+      "name": "map-regions",
+      "path": "public/assets/map-regions.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/map-regions.webp",
+      "bytes": 25052
+    },
+    {
+      "name": "map-regions-select",
+      "path": "public/assets/map-regions-select.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/map-regions-select.webp",
+      "bytes": 23374
+    },
+    {
+      "name": "b-ship",
+      "path": "public/assets/b-ship.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/figure/b-ship.webp",
+      "bytes": 3106
+    },
+    {
+      "name": "b-ship-damaged",
+      "path": "public/assets/b-ship-damaged.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/figure/b-ship-damaged.webp",
+      "bytes": 3272
+    },
+    {
+      "name": "b-city",
+      "path": "public/assets/b-city.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/figure/b-city.webp",
+      "bytes": 3032
+    },
+    {
+      "name": "b-city-damaged",
+      "path": "public/assets/b-city-damaged.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/figure/b-city-damaged.webp",
+      "bytes": 3162
+    },
+    {
+      "name": "b-starport",
+      "path": "public/assets/b-starport.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/figure/b-starport.webp",
+      "bytes": 2646
+    },
+    {
+      "name": "b-starport-damaged",
+      "path": "public/assets/b-starport-damaged.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/figure/b-starport-damaged.webp",
+      "bytes": 2850
+    },
+    {
+      "name": "b-agent",
+      "path": "public/assets/b-agent.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/figure/b-agent.webp",
+      "bytes": 1172
+    },
+    {
+      "name": "b-agent-damaged",
+      "path": "public/assets/b-agent-damaged.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/figure/b-agent-damaged.webp",
+      "bytes": 1274
+    },
+    {
+      "name": "r-ship",
+      "path": "public/assets/r-ship.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/figure/r-ship.webp",
+      "bytes": 3124
+    },
+    {
+      "name": "r-ship-damaged",
+      "path": "public/assets/r-ship-damaged.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/figure/r-ship-damaged.webp",
+      "bytes": 3344
+    },
+    {
+      "name": "r-city",
+      "path": "public/assets/r-city.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/figure/r-city.webp",
+      "bytes": 3048
+    },
+    {
+      "name": "r-city-damaged",
+      "path": "public/assets/r-city-damaged.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/figure/r-city-damaged.webp",
+      "bytes": 3198
+    },
+    {
+      "name": "r-starport",
+      "path": "public/assets/r-starport.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/figure/r-starport.webp",
+      "bytes": 2726
+    },
+    {
+      "name": "r-starport-damaged",
+      "path": "public/assets/r-starport-damaged.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/figure/r-starport-damaged.webp",
+      "bytes": 2904
+    },
+    {
+      "name": "r-agent",
+      "path": "public/assets/r-agent.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/figure/r-agent.webp",
+      "bytes": 1178
+    },
+    {
+      "name": "r-agent-damaged",
+      "path": "public/assets/r-agent-damaged.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/figure/r-agent-damaged.webp",
+      "bytes": 1286
+    },
+    {
+      "name": "w-ship",
+      "path": "public/assets/w-ship.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/figure/w-ship.webp",
+      "bytes": 1744
+    },
+    {
+      "name": "w-ship-damaged",
+      "path": "public/assets/w-ship-damaged.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/figure/w-ship-damaged.webp",
+      "bytes": 2610
+    },
+    {
+      "name": "w-city",
+      "path": "public/assets/w-city.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/figure/w-city.webp",
+      "bytes": 2416
+    },
+    {
+      "name": "w-city-damaged",
+      "path": "public/assets/w-city-damaged.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/figure/w-city-damaged.webp",
+      "bytes": 2806
+    },
+    {
+      "name": "w-starport",
+      "path": "public/assets/w-starport.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/figure/w-starport.webp",
+      "bytes": 2042
+    },
+    {
+      "name": "w-starport-damaged",
+      "path": "public/assets/w-starport-damaged.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/figure/w-starport-damaged.webp",
+      "bytes": 2404
+    },
+    {
+      "name": "w-agent",
+      "path": "public/assets/w-agent.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/figure/w-agent.webp",
+      "bytes": 718
+    },
+    {
+      "name": "w-agent-damaged",
+      "path": "public/assets/w-agent-damaged.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/figure/w-agent-damaged.webp",
+      "bytes": 994
+    },
+    {
+      "name": "y-ship",
+      "path": "public/assets/y-ship.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/figure/y-ship.webp",
+      "bytes": 2752
+    },
+    {
+      "name": "y-ship-damaged",
+      "path": "public/assets/y-ship-damaged.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/figure/y-ship-damaged.webp",
+      "bytes": 3340
+    },
+    {
+      "name": "y-city",
+      "path": "public/assets/y-city.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/figure/y-city.webp",
+      "bytes": 3162
+    },
+    {
+      "name": "y-city-damaged",
+      "path": "public/assets/y-city-damaged.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/figure/y-city-damaged.webp",
+      "bytes": 3458
+    },
+    {
+      "name": "y-starport",
+      "path": "public/assets/y-starport.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/figure/y-starport.webp",
+      "bytes": 2758
+    },
+    {
+      "name": "y-starport-damaged",
+      "path": "public/assets/y-starport-damaged.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/figure/y-starport-damaged.webp",
+      "bytes": 3044
+    },
+    {
+      "name": "y-agent",
+      "path": "public/assets/y-agent.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/figure/y-agent.webp",
+      "bytes": 1066
+    },
+    {
+      "name": "y-agent-damaged",
+      "path": "public/assets/y-agent-damaged.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/figure/y-agent-damaged.webp",
+      "bytes": 1278
+    },
+    {
+      "name": "material",
+      "path": "public/assets/material.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/icon/material.webp",
+      "bytes": 3960
+    },
+    {
+      "name": "fuel",
+      "path": "public/assets/fuel.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/icon/fuel.webp",
+      "bytes": 3536
+    },
+    {
+      "name": "weapon",
+      "path": "public/assets/weapon.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/icon/weapon.webp",
+      "bytes": 3950
+    },
+    {
+      "name": "relic",
+      "path": "public/assets/relic.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/icon/relic.webp",
+      "bytes": 3962
+    },
+    {
+      "name": "psionic",
+      "path": "public/assets/psionic.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/icon/psionic.webp",
+      "bytes": 4514
+    },
+    {
+      "name": "setup-2p-01",
+      "path": "public/assets/setup-2p-01.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/setup/setup-2p-01.webp",
+      "bytes": 58904
+    },
+    {
+      "name": "setup-2p-02",
+      "path": "public/assets/setup-2p-02.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/setup/setup-2p-02.webp",
+      "bytes": 57674
+    },
+    {
+      "name": "setup-2p-03",
+      "path": "public/assets/setup-2p-03.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/setup/setup-2p-03.webp",
+      "bytes": 58064
+    },
+    {
+      "name": "setup-2p-04",
+      "path": "public/assets/setup-2p-04.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/setup/setup-2p-04.webp",
+      "bytes": 57500
+    },
+    {
+      "name": "setup-3p-01",
+      "path": "public/assets/setup-3p-01.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/setup/setup-3p-01.webp",
+      "bytes": 57740
+    },
+    {
+      "name": "setup-3p-02",
+      "path": "public/assets/setup-3p-02.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/setup/setup-3p-02.webp",
+      "bytes": 57050
+    },
+    {
+      "name": "setup-3p-03",
+      "path": "public/assets/setup-3p-03.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/setup/setup-3p-03.webp",
+      "bytes": 56924
+    },
+    {
+      "name": "setup-3p-04",
+      "path": "public/assets/setup-3p-04.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/setup/setup-3p-04.webp",
+      "bytes": 61724
+    },
+    {
+      "name": "setup-4p-01",
+      "path": "public/assets/setup-4p-01.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/setup/setup-4p-01.webp",
+      "bytes": 62364
+    },
+    {
+      "name": "setup-4p-02",
+      "path": "public/assets/setup-4p-02.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/setup/setup-4p-02.webp",
+      "bytes": 61400
+    },
+    {
+      "name": "setup-4p-03",
+      "path": "public/assets/setup-4p-03.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/setup/setup-4p-03.webp",
+      "bytes": 64590
+    },
+    {
+      "name": "setup-4p-04",
+      "path": "public/assets/setup-4p-04.webp",
+      "url": "https://hrf.im/hrf/webp2/arcs/images/setup/setup-4p-04.webp",
+      "bytes": 60818
+    }
+  ]
+}

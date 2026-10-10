@@ -1,0 +1,712 @@
+/* Suit inks, engraved typography, and rules that stay out of the command path. */
+.suit-construction {
+  --suit: #e59a62;
+  --suit-rgb: 229, 154, 98;
+}
+.suit-administration {
+  --suit: #d2c5a1;
+  --suit-rgb: 210, 197, 161;
+}
+.suit-aggression {
+  --suit: #df746d;
+  --suit-rgb: 223, 116, 109;
+}
+.suit-mobilization {
+  --suit: #79bec4;
+  --suit-rgb: 121, 190, 196;
+}
+.play-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+  margin: 6px 0 10px;
+}
+.play-option {
+  position: relative;
+  min-width: 0;
+  border: 1px solid rgba(var(--suit-rgb), 0.35);
+  border-radius: 9px;
+  background: linear-gradient(125deg, rgba(var(--suit-rgb), 0.12), #211d24 76%);
+  overflow: hidden;
+  transition:
+    border-color 0.16s,
+    box-shadow 0.16s;
+}
+.play-option:has(.play-decision:hover) {
+  border-color: var(--suit);
+  box-shadow: 0 0 24px rgba(var(--suit-rgb), 0.12);
+}
+.app .command-choice.play-decision {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  color: #efe4d4;
+  padding: 12px 36px 10px 15px;
+  min-height: 92px;
+  height: auto;
+  isolation: isolate;
+  box-shadow: none;
+}
+.app .play-decision .play-art {
+  display: block;
+  position: absolute;
+  right: -8px;
+  top: -30px;
+  width: 100px;
+  max-height: none;
+  height: 150px;
+  object-fit: cover;
+  opacity: 0.12;
+  transform: rotate(12deg);
+  z-index: -1;
+  mask-image: linear-gradient(to left, #000, transparent);
+}
+.play-mode {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: var(--suit);
+}
+.play-mode > strong {
+  font:
+    24px "Fraunces",
+    serif;
+  letter-spacing: -0.02em;
+}
+.play-pips {
+  font:
+    11px "Source Sans 3",
+    sans-serif;
+  margin-left: auto;
+  white-space: nowrap;
+}
+.play-pips b {
+  font-size: 19px;
+  font-weight: 600;
+  margin-right: 2px;
+}
+.play-subtitle {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12px;
+  margin-top: 5px;
+  color: #efe3d0;
+}
+.app .play-consequence {
+  display: block;
+  margin-top: 3px;
+  font-size: 11px;
+  color: #c3b7ab;
+  text-transform: none;
+}
+.rule-help {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  background: transparent;
+  border: 0;
+  color: inherit;
+  cursor: help;
+  border-radius: 4px;
+  padding: 5px;
+}
+.rule-help:hover,
+.rule-help:focus-visible {
+  color: #ffedcd;
+  background: #ffffff12;
+  outline: 1px solid #d0b17c88;
+  outline-offset: 2px;
+}
+.mode-help {
+  position: absolute;
+  right: 7px;
+  top: 10px;
+  color: var(--suit);
+}
+.play-action-menu {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 12px;
+  background: #0002;
+  border-top: 1px solid rgba(var(--suit-rgb), 0.2);
+  flex-wrap: wrap;
+}
+.play-action-menu > span {
+  font-size: 10px;
+  color: #afa497;
+}
+.play-action-menu .action-chip {
+  font-size: 12px;
+  color: var(--suit);
+  padding: 2px 3px;
+}
+.rule-popover {
+  position: fixed;
+  z-index: 2000;
+  width: min(340px, calc(100vw - 24px));
+  max-height: calc(100dvh - 24px);
+  overflow: auto;
+  border: 1px solid #92774f;
+  border-radius: 10px;
+  padding: 17px 19px;
+  background: linear-gradient(145deg, #383039, #201c23);
+  box-shadow: 0 12px 50px #000a;
+  color: #ded1bc;
+  font:
+    14px/1.5 "Source Sans 3",
+    sans-serif;
+  text-align: left;
+}
+.rule-popover-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 18px;
+  font-size: 9px;
+  letter-spacing: 0.15em;
+  color: #bf9e6f;
+}
+.rule-popover-top button {
+  padding: 1px;
+  border: 0;
+  background: none;
+  color: #ded1bc;
+}
+.rule-popover h3 {
+  font:
+    26px "Fraunces",
+    serif;
+  margin: 5px 0 7px;
+  color: #f1e6d2;
+}
+.rule-popover > strong {
+  font-weight: 500;
+  color: #f0d4a7;
+}
+.rule-popover p {
+  margin: 9px 0;
+}
+.rule-example {
+  padding: 9px 11px;
+  border-left: 2px solid #b79560;
+  background: #0002;
+  font-size: 13px;
+}
+.rule-popover > small {
+  display: block;
+  font-size: 10px;
+  color: #b0a396;
+  margin-top: 10px;
+}
+.app .action-rule-help {
+  align-self: center;
+  margin-left: 5px;
+  color: #c2aa86;
+  flex-shrink: 0;
+}
+.action-rail {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 15px;
+  margin: 7px 0 12px;
+  border-bottom: 1px solid #b5976730;
+  padding-bottom: 12px;
+}
+.action-command {
+  position: relative;
+  flex: 1 0 90px;
+  max-width: 160px;
+  display: flex;
+  align-items: center;
+}
+.app .command-choice.action-command-button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+  background: none;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  border-radius: 0;
+  padding: 7px 5px;
+  min-height: 74px;
+  height: auto;
+  box-shadow: none;
+  color: #e5d7c2;
+}
+.app .action-command-button:hover {
+  background: linear-gradient(0deg, #ba925216, transparent);
+  border-bottom-color: #c7a467;
+  color: #fff1d1;
+}
+.action-command-button > svg {
+  color: #c5a878;
+  margin-bottom: 3px;
+}
+.action-command-button strong {
+  font:
+    17px "Fraunces",
+    serif;
+}
+.action-command-button small {
+  font-size: 10px;
+  color: #b5a99c;
+}
+.action-command > .rule-help {
+  position: absolute;
+  top: 3px;
+  right: 0;
+  color: #a0907d;
+  padding: 2px;
+}
+.app .command-choice.end-turn {
+  background: none;
+  border: 0;
+  padding: 5px 2px;
+  min-height: 28px;
+  color: #d6bc91;
+}
+.app .command-choice.end-turn .choice-consequence {
+  display: inline;
+  margin-left: 10px;
+  font-size: 11px;
+  color: #9e9388;
+}
+.app .choice-list {
+  max-height: none;
+  overflow: visible;
+}
+.app .choice-list:empty {
+  display: none;
+}
+.app .target-fallback {
+  margin: 8px 0;
+  color: #b8a992;
+  font-size: 12px;
+}
+.target-fallback > summary {
+  cursor: pointer;
+}
+.target-fallback .choice-list {
+  margin-top: 8px;
+}
+.map-instruction {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  color: #c7b8a3;
+}
+.map-instruction > svg {
+  color: #d0ae76;
+}
+.map-instruction strong {
+  display: block;
+  font:
+    18px "Fraunces",
+    serif;
+  color: #edddc5;
+}
+.map-instruction small {
+  display: block;
+  font-size: 12px;
+  margin-top: 4px;
+}
+.app .phase-card .selection-context {
+  margin: 0 0 5px;
+}
+.app .phase-card .stage-guide {
+  margin-bottom: 4px;
+}
+@media (min-width: 1001px) {
+  .app {
+    grid-template-rows: 54px 118px 32px minmax(160px, 1fr) var(
+        --dock-height,
+        300px
+      );
+  }
+  .app .hand-area {
+    height: var(--dock-height, 300px);
+    min-height: 0;
+    padding-top: 10px;
+  }
+  .app .hand-area .action-panel {
+    height: 100%;
+    overflow: auto;
+  }
+  .app .hand-area .command-live {
+    padding-top: 9px;
+  }
+  .app .dock-resize {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    cursor: ns-resize;
+    z-index: 4;
+    touch-action: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #332a2e;
+  }
+  .dock-resize:after {
+    content: "";
+    width: 70px;
+    height: 3px;
+    background: #ac9062;
+    border-radius: 2px;
+  }
+  .dock-resize:hover,
+  .dock-resize:focus-visible {
+    background: #69563d;
+    outline: 1px solid #d9b270;
+  }
+  .dock-tools {
+    position: absolute;
+    right: 5px;
+    top: 0;
+    z-index: 5;
+    display: flex;
+    gap: 4px;
+  }
+  .dock-tools button {
+    font-size: 9px;
+    padding: 0 6px;
+    height: 12px;
+    line-height: 10px;
+    border: 0;
+    background: #332a2e;
+    color: #c9b083;
+  }
+}
+@media (min-width: 1001px) and (max-height: 800px) {
+  .app {
+    grid-template-rows: 48px 104px 28px minmax(160px, 1fr) var(
+        --dock-height,
+        250px
+      );
+  }
+  .app .hand-area {
+    height: var(--dock-height, 250px);
+  }
+  .app .command-live h2 {
+    font-size: 19px;
+    margin-bottom: 5px;
+  }
+  .app .command-choice.play-decision {
+    padding-top: 8px;
+    padding-bottom: 7px;
+    min-height: 83px;
+  }
+  .play-mode > strong {
+    font-size: 21px;
+  }
+  .play-action-menu {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+@media (max-width: 1000px) {
+  .dock-resize,
+  .dock-tools {
+    display: none;
+  }
+  .play-options {
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  }
+  .app .hand-area .action-panel {
+    overflow: visible;
+    height: auto;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .play-option,
+  .app .action-command-button {
+    transition: none;
+  }
+}
+.app .map-viewport {
+  position: relative;
+  grid-column: 1;
+  grid-row: 1;
+  min-height: 0;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 5px;
+  background: #141318;
+  isolation: isolate;
+  flex: 1;
+}
+.app .map-viewport .physical-board {
+  width: 100%;
+  height: 100%;
+  max-height: none;
+  touch-action: none;
+  user-select: none;
+  margin: 0;
+  cursor: grab;
+}
+.map-camera-controls {
+  position: absolute;
+  bottom: 9px;
+  left: 9px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  z-index: 3;
+  background: #201c24ed;
+  border: 1px solid #a0855644;
+  padding: 4px;
+  border-radius: 6px;
+  box-shadow: 0 3px 12px #0005;
+}
+.map-camera-controls button {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: none;
+  border: 0;
+  padding: 5px;
+  color: #d8c7ac;
+  font-size: 11px;
+}
+.map-camera-controls button:hover {
+  background: #b69a6222;
+}
+.map-camera-controls button:disabled {
+  opacity: 0.3;
+}
+.map-focus-caption {
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  z-index: 2;
+  font-size: 10px;
+  color: #ebc493;
+  letter-spacing: 0.15em;
+  background: #21191bd9;
+  padding: 7px 10px;
+  border-left: 2px solid #ca795f;
+  pointer-events: none;
+}
+.map-choice-tray {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  z-index: 4;
+  width: 230px;
+  max-height: calc(100% - 24px);
+  overflow: auto;
+  background: #252029f5;
+  border: 1px solid #af9361;
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 6px 28px #0009;
+}
+.map-choice-tray > span {
+  font-size: 9px;
+  letter-spacing: 0.1em;
+  color: #ba9d75;
+  text-transform: uppercase;
+}
+.map-choice-tray h3 {
+  font:
+    18px "Fraunces",
+    serif;
+  margin: 5px 0 8px;
+  color: #e9d6b6;
+}
+.map-choice-tray > button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: none;
+  border: 0;
+  border-top: 1px solid #ffffff15;
+  border-radius: 0;
+  font-size: 12px;
+  text-align: left;
+  padding: 9px 1px;
+  color: #ded0b9;
+}
+.map-choice-tray > button:hover {
+  color: #fff0c7;
+  background: #c9a56513;
+}
+.piece-target {
+  cursor: crosshair;
+  filter: drop-shadow(0 0 10px #ffe1a0) brightness(1.2);
+}
+.piece-target:hover {
+  filter: drop-shadow(0 0 16px #ffe1a0) brightness(1.5);
+}
+.court-slot:has(.court-action-hint) {
+  outline: 1px solid #b8a074;
+  outline-offset: 5px;
+  border-radius: 4px;
+}
+.court-action-hint {
+  display: block;
+  text-align: center;
+  font-size: 10px;
+  color: #e7c48a;
+  margin-top: 4px;
+}
+@media (max-width: 1000px) {
+  .app .map-viewport {
+    min-height: 270px;
+  }
+  .map-camera-controls {
+    gap: 0;
+    left: 3px;
+    bottom: 3px;
+  }
+  .map-camera-controls button {
+    padding: 4px;
+  }
+  .map-camera-controls button span {
+    display: none;
+  }
+  .map-choice-tray {
+    width: min(220px, calc(100% - 16px));
+    right: 8px;
+    bottom: 36px;
+  }
+  .app .map-viewport .physical-board {
+    min-height: 270px;
+  }
+}
+.board-piece.piece-target {
+  pointer-events: all;
+}
+.app .round-seat.played-response {
+  max-width: none;
+  gap: 12px;
+}
+.app .round-seat.played-response span {
+  overflow-wrap: normal;
+}
+.special-choices {
+  font-size: 12px;
+  color: #bcab90;
+  margin: 5px 0;
+}
+.special-choices > summary {
+  cursor: pointer;
+}
+.special-choices .choice-list {
+  margin: 8px 0;
+}
+.app .special-choices .command-choice {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ffffff15;
+  border-radius: 0;
+  min-height: 36px;
+  padding: 6px;
+}
+.app .special-choices .choice-consequence {
+  display: none;
+}
+.action-command {
+  flex-basis: 125px;
+  max-width: 185px;
+}
+.app .command-choice.action-command-button {
+  display: grid;
+  grid-template-columns: 25px 1fr;
+  gap: 3px 9px;
+  min-height: 53px;
+  padding: 6px 5px;
+  align-items: center;
+}
+.action-command-button > svg {
+  grid-column: 1;
+  grid-row: 1/3;
+  margin: 0;
+}
+.action-command-button > strong {
+  grid-column: 2;
+  grid-row: 1;
+}
+.action-command-button > small {
+  grid-column: 2;
+  grid-row: 2;
+}
+.action-rail {
+  padding-bottom: 7px;
+  margin: 2px 0 7px;
+}
+.action-command > .rule-help {
+  top: 0;
+  right: 0;
+}
+@media (min-width: 1001px) {
+  .app .hand-area {
+    padding-top: 18px;
+  }
+  .app .dock-resize {
+    height: 18px;
+  }
+  .dock-tools button {
+    height: 18px;
+    line-height: 16px;
+    font-size: 10px;
+    padding: 0 7px;
+  }
+}
+
+@media (min-width: 1001px) {
+  .app:not(:has(.turn-beacon)) {
+    grid-template-rows: 54px 118px minmax(160px, 1fr) var(--dock-height, 300px);
+  }
+}
+@media (min-width: 1001px) and (max-height: 800px) {
+  .app:not(:has(.turn-beacon)) {
+    grid-template-rows: 48px 104px minmax(160px, 1fr) var(--dock-height, 250px);
+  }
+}
+.app .command-live:has(.dice-picker) > .command-description:first-of-type {
+  display: none;
+}
+.app .command-live:has(.dice-picker) .dice-picker {
+  margin: 7px 0;
+  gap: 8px;
+}
+.app .command-live:has(.dice-picker) .dice-picker label {
+  padding: 6px;
+  gap: 4px;
+}
+.app .command-live:has(.dice-picker) .dice-picker input {
+  padding: 5px;
+  min-height: 30px;
+}
+.app .command-live:has(.dice-picker) .dice-guide-link {
+  margin: 3px 0;
+}
+.app .command-live:has(.dice-picker) .pool-odds {
+  padding: 8px 10px;
+  margin: 7px 0;
+}
+.app .command-live:has(.dice-picker) .timing-tip {
+  padding: 5px 8px;
+  font-size: 11px;
+}
+.app .command-live:has(.dice-picker) .commit-warning {
+  font-size: 11px;
+  padding: 5px 8px;
+  margin: 5px 0;
+}
+.app .command-live:has(.dice-picker) .primary.full {
+  padding: 9px;
+  min-height: 36px;
+}

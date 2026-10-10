@@ -1,0 +1,428 @@
+.decision-guide {
+  margin: 10px 0 12px;
+  border-left: 2px solid #bfa16a55;
+  padding-left: 10px;
+}
+.decision-guide-controls {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+}
+.app .teaching-toggle {
+  border: 0;
+  background: transparent;
+  color: #a99a83;
+  font-size: 10px;
+  padding: 0 3px;
+}
+.app .teaching-toggle[aria-pressed="true"] {
+  color: #dcc08c;
+}
+.decision-instruction p {
+  font-size: 12px;
+  color: #dfd3c0;
+  margin: 1px 0 4px;
+  max-width: 690px;
+}
+.decision-instruction small {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-size: 11px;
+  color: #9e9283;
+}
+.turn-primer {
+  font-size: 10px;
+  color: #b2a187;
+  margin-top: 5px;
+}
+.turn-primer p {
+  font-size: 12px;
+  line-height: 1.5;
+  max-width: 620px;
+  color: #d2c6b3;
+}
+.app .effect-source {
+  margin-right: auto;
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  border: 0;
+  background: none;
+  padding: 0;
+  color: #dcc8a5;
+  font-size: 11px;
+}
+.effect-source img {
+  height: 30px;
+  width: 21px;
+  object-fit: contain;
+}
+.decision-objects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 8px 0;
+}
+.decision-object {
+  position: relative;
+  flex: 1 1 140px;
+  max-width: 280px;
+  min-width: 0;
+}
+.app .command-choice.object-choice {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  min-height: 76px;
+  border: 0;
+  border-bottom: 1px solid #bba57d35;
+  border-radius: 3px;
+  padding: 10px 8px;
+  background: linear-gradient(115deg, #a9987310, transparent);
+  text-align: left;
+  color: #e7dac3;
+}
+.app .command-choice.object-choice:hover {
+  background: #b29c681c;
+  border-color: #d9bb78;
+  transform: translateY(-1px);
+}
+.app .command-choice.object-choice > span {
+  min-width: 0;
+  display: block;
+}
+.object-choice strong {
+  font-family: "Fraunces", Georgia, serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.25;
+  display: block;
+}
+.object-choice small {
+  display: block;
+  font-size: 10px;
+  color: #ac9f8d;
+  line-height: 1.4;
+  margin-top: 5px;
+}
+.object-choice .object-cost {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  color: #cfb17b;
+}
+.decision-card-art {
+  width: 52px;
+  height: 78px;
+  object-fit: contain;
+  flex-shrink: 0;
+  filter: drop-shadow(0 4px 4px #0006);
+}
+.decision-piece-art {
+  width: 48px;
+  height: 42px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+.decision-token-art {
+  width: 46px;
+  height: 46px;
+  object-fit: contain;
+  flex-shrink: 0;
+  filter: drop-shadow(0 5px 4px #0005);
+}
+.decision-symbol-art {
+  color: #c9ac72;
+  flex-shrink: 0;
+}
+.decision-player-art {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.decision-ambition-art {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  color: #d5bc86;
+}
+.decision-ambition-art small {
+  font-size: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+}
+.decision-number-art {
+  display: grid;
+  place-items: center;
+  min-width: 36px;
+  height: 36px;
+  border: 1px solid #c9ac7255;
+  border-radius: 50%;
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 23px;
+  color: #d9c38d;
+}
+.app .object-inspect {
+  position: absolute;
+  right: 1px;
+  top: 1px;
+  padding: 3px;
+  border: 0;
+  background: #251e23cc;
+  color: #cdb994;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+.kind-card .object-choice strong {
+  padding-right: 7px;
+}
+.decision-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin: 10px 0 2px;
+  border-top: 1px solid #a88d562a;
+  padding-top: 4px;
+}
+.decision-navigation .decision-object {
+  flex: 0 1 auto;
+  max-width: 100%;
+}
+.app .decision-navigation .object-choice {
+  min-height: 36px;
+  background: transparent;
+  padding: 7px 6px;
+  border: 0;
+}
+.decision-navigation .object-choice strong {
+  font-family: inherit;
+  font-size: 12px;
+}
+.decision-navigation .object-choice small {
+  font-size: 10px;
+  max-width: 470px;
+}
+.decision-navigation .decision-symbol-art {
+  width: 16px;
+  height: 16px;
+}
+.prelude-token {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+}
+.app .stage-categories button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.dice-presets {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  flex-wrap: wrap;
+  margin: 8px 0;
+}
+.dice-presets > span {
+  font-size: 10px;
+  color: #a69b8c;
+}
+.app .dice-presets button {
+  font-size: 10px;
+  padding: 5px 8px;
+  border: 1px solid #b39d7138;
+  background: transparent;
+  border-radius: 12px;
+  color: #d4c2a1;
+}
+.selection-progress {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  font-size: 12px;
+  margin: 10px 0;
+  color: #ddccb1;
+}
+.selection-progress > span {
+  font-size: 11px;
+  color: #a89c8a;
+}
+.selection-gallery {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.app .selection-object {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  flex: 0 1 110px;
+  padding: 10px 8px;
+  border: 1px solid #b29b7430;
+  border-radius: 6px;
+  background: #b39e7510;
+  color: #dcd1bf;
+  min-width: 70px;
+}
+.selection-object > span {
+  font-size: 10px;
+  line-height: 1.25;
+  text-align: center;
+}
+.app .selection-object.chosen {
+  border-color: #d7ba7b;
+  background: #ddbc6c1e;
+}
+.selection-check {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  color: #e4c883;
+}
+.selectable-die {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  min-height: 40px;
+  font-size: 22px !important;
+}
+.selection-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+.selection-footer .primary {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 12px;
+  font-size: 12px;
+}
+.selection-footer .selection-shortcuts {
+  margin: 0;
+}
+@media (max-width: 600px) {
+  .decision-object {
+    flex-basis: 130px;
+  }
+  .decision-card-art {
+    width: 45px;
+    height: 68px;
+  }
+  .selection-object {
+    flex-basis: 88px !important;
+  }
+  .decision-instruction p {
+    font-size: 12px;
+  }
+  .decision-instruction small {
+    align-items: flex-start;
+  }
+  .decision-navigation .object-choice small {
+    max-width: 270px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .app .command-choice.object-choice:hover {
+    transform: none;
+  }
+}
+.decision-guide {
+  position: relative;
+  margin: 7px 0 9px;
+  padding-right: 75px;
+}
+.decision-guide-controls {
+  position: absolute;
+  right: 0;
+  top: 1px;
+}
+.decision-guide:has(.effect-source) .decision-guide-controls {
+  position: static;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.next-step-help {
+  font-size: 10px;
+  color: #ae9c7e;
+}
+.next-step-help summary {
+  cursor: pointer;
+}
+.next-step-help small {
+  display: block;
+  margin-top: 4px;
+}
+.app .decision-navigation .object-choice {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.app .decision-navigation .object-choice small {
+  display: none;
+}
+
+/* Keep the battle commitment in view even in a manually shortened dock. */
+.dice-commit {
+  position: sticky;
+  bottom: -9px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  background: #241f26;
+  border-top: 1px solid #b59a6850;
+  padding: 9px 0;
+}
+.dice-commit strong {
+  font-size: 11px;
+  color: #d7c5a6;
+}
+.app .command-live .dice-commit .commit-warning {
+  margin: 3px 0 0;
+  padding: 0;
+  border: 0;
+  font-size: 10px;
+}
+.app .command-live .dice-commit .primary.full {
+  width: auto;
+  flex-shrink: 0;
+  padding: 9px 15px;
+}
+.app .command-live .pool-odds b {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.app .command-live .pool-odds b > span {
+  display: inline;
+}
+.app .command-live .pool-odds > small {
+  margin-top: 5px;
+}
+.app .command-live .pool-odds > strong {
+  margin-bottom: 4px;
+}
+@media (max-width: 600px) {
+  .dice-commit {
+    flex-wrap: wrap;
+    bottom: 0;
+  }
+  .app .command-live .dice-commit .primary.full {
+    width: 100%;
+  }
+}
