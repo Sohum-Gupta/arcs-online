@@ -5,7 +5,7 @@ import { randomBytes, createHash, timingSafeEqual } from "node:crypto";
 import { mkdirSync, existsSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { createGame, viewFor, decision, RuleError } from "../game/engine.js";
+import { createGame, viewFor, RuleError } from "../game/engine.js";
 import { autoInput } from "../game/autoplay.js";
 import { resolveTimeout } from "./timeout.js";
 import {
@@ -23,6 +23,7 @@ import {
   followClock,
   assertClockOpen,
   changeClock,
+  addNotice,
 } from "./clock.js";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dir = process.env.DATA_DIR ?? path.join(root, "var");
@@ -198,6 +199,10 @@ app.post("/api/rooms/:id/join", (req, res) => {
   const name = String(req.body.name ?? "").trim();
   if (!name || name.length > 32)
     return res.status(400).json({ error: "Enter a name (1–32 characters)." });
+  if (row.room.seats.some((x) => x.name.toLowerCase() === name.toLowerCase()))
+    return res
+      .status(409)
+      .json({ error: "That name is already taken at this table." });
   const key = token();
   row.room.seats.push({ name, keyHash: hash(key) });
   row.room.revision++;
@@ -405,13 +410,11 @@ const timeoutTimer = setInterval(() => {
       // Keep the last saved state and expose a recoverable stop, not a retry loop.
       const saved = load(id);
       saved.room.clock.paused = true;
-      saved.room.notices = [
-        ...(saved.room.notices ?? []),
-        {
-          text: "Automatic play could not resolve this decision. The table is paused; the host can add time and resume for a manual choice.",
-          at: Date.now(),
-        },
-      ].slice(-20);
+      addNotice(
+        saved.room,
+        "Automatic play could not resolve this decision. The table is paused; the host can add time and resume for a manual choice.",
+        saved.room.clock.actor,
+      );
       save(saved);
       broadcast(id);
       console.error("Timed-out turn paused:", id, e.message);
