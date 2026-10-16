@@ -34,8 +34,8 @@ export function validateTimer(value = {}) {
   if (mode === "off") return { mode, expiry, turn: 0, bank: 0, increment: 0 };
   const live = mode === "live",
     // With no knob given, the default is a turn cap only.
-    given = ["turn", "bank"].some((k) => value[k] !== undefined),
-    turn = value.turn ?? (given ? 0 : live ? 300 : 86400),
+    given = ["turn", "bank", "seconds"].some((k) => value[k] !== undefined),
+    turn = value.turn ?? value.seconds ?? (given ? 0 : live ? 300 : 86400),
     bank = value.bank ?? 0,
     increment = value.increment ?? 0;
   if (

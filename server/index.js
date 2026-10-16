@@ -7,6 +7,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { createGame, viewFor, RuleError } from "../game/engine.js";
 import { autoInput } from "../game/autoplay.js";
+import { migrateRoom, backupLegacyRooms } from "./migrate.js";
 import { resolveTimeout } from "./timeout.js";
 import {
   applyMovement,
@@ -30,8 +31,12 @@ const dir = process.env.DATA_DIR ?? path.join(root, "var");
 mkdirSync(dir, { recursive: true });
 const db = new DatabaseSync(path.join(dir, "arcs.sqlite"));
 db.exec(
-  "PRAGMA journal_mode=WAL; PRAGMA foreign_keys=ON; CREATE TABLE IF NOT EXISTS rooms(id TEXT PRIMARY KEY, invite_hash TEXT NOT NULL, host_hash TEXT NOT NULL, data TEXT NOT NULL, updated INTEGER NOT NULL); CREATE TABLE IF NOT EXISTS events(room TEXT NOT NULL, revision INTEGER NOT NULL, actor INTEGER, action TEXT NOT NULL, created INTEGER NOT NULL, PRIMARY KEY(room,revision));",
+  "PRAGMA busy_timeout=10000; PRAGMA journal_mode=WAL; PRAGMA foreign_keys=ON; CREATE TABLE IF NOT EXISTS rooms(id TEXT PRIMARY KEY, invite_hash TEXT NOT NULL, host_hash TEXT NOT NULL, data TEXT NOT NULL, updated INTEGER NOT NULL); CREATE TABLE IF NOT EXISTS events(room TEXT NOT NULL, revision INTEGER NOT NULL, actor INTEGER, action TEXT NOT NULL, created INTEGER NOT NULL, PRIMARY KEY(room,revision));",
 );
+if (backupLegacyRooms(db, dir))
+  console.log(
+    "Created pre-upgrade SQLite backup: backups/before-save-v1.sqlite",
+  );
 const app = express();
 app.disable("x-powered-by");
 app.set("trust proxy", 1);
@@ -88,7 +93,7 @@ app.use("/api", (req, res, next) => {
 const load = (id) => {
   const row = db.prepare("SELECT * FROM rooms WHERE id=?").get(id);
   if (!row) throw Object.assign(new Error("Table not found."), { status: 404 });
-  return { ...row, room: JSON.parse(row.data) };
+  return { ...row, room: migrateRoom(JSON.parse(row.data)) };
 };
 const save = (row) =>
   db

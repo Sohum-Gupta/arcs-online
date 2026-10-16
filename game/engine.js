@@ -2797,7 +2797,7 @@ function destroy(s, x, dealer, battle) {
   if (x.type === "city") {
     const types = cityTypes(s, x);
     for (const r of types) outrage(s, dealer, r);
-    if (dealer !== x.owner && !has(s, x.owner, "LEAD01"))
+    if (dealer !== x.owner && !(battle && has(s, x.owner, "LEAD01")))
       push(s, { type: "ransack", p: dealer, defender: x.owner });
   }
 }

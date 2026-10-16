@@ -50,7 +50,7 @@ that turned out to be wrong are listed at the end so nobody re-raises them.
 | M2 | Rules | The last pass of a chapter hands the initiative on; a card declaration and your lead-card declaration are independent. |
 | M3 | Rules | Elder Broker's trade no longer gives away an empty slot; Ancient Holdings' 4-key slot stays put; Tycoon's Charm is only offered with something to trade. |
 | M4 | Rules | Populist Demands resolves everything it triggers before the Court refills; Sprinter Drives moves one group, once. |
-| M5 | Battles | Elder's Ransack immunity covers Galactic Rifles; Agitator's player picks which Weapon to discard; an empty reroll no longer spends the ability. |
+| M5 | Battles | Elder's Ransack protection remains battle-only; Agitator's player picks which Weapon to discard; an empty reroll no longer spends the ability. |
 | M6 | Rules | Declaring and seizing stay open after actions until the turn reveals something new. |
 | M7 | Gameplay | Split action discard piles, the rulebook's tournament variant: face-up plays public, face-down plays and leftovers hidden. |
 | M8 | Interface | The Action discard window, the full table history grouped by turn, and an uncapped log. |
@@ -163,8 +163,9 @@ not say. The fix was to follow the rulebook.
   every Vox card.
 - **Sprinter Drives (M4).** One group, one extra move, as the FAQ says.
   It used to let every group dropped along a Catapult move again.
-- **Elder and Galactic Rifles (M5).** Elder's immunity to Ransack holds
-  when a rival destroys their city with Rifles, not only in battle.
+- **Elder and Galactic Rifles (review correction).** Elder's protection applies
+  only when rivals battle you. Galactic Rifles is not Battle and does not
+  receive that protection, consistent with its publisher FAQ.
 - **Agitator's Weapon discard (M5).** With two or more Weapons, the
   Agitator's player chooses which to discard. Slot position sets the raid
   cost, so it matters.
@@ -335,9 +336,9 @@ visible changed.
 the old set predated the split discard piles and the time bank, so the
 engine and server carried code to read those old shapes. A new script
 (`npm run fixtures:ux`) rebuilds the set from the current engine, 48
-states covering every kind of decision, and the old-shape code is gone. A
-game saved before a change is not expected to load after it; games start
-fresh after each deploy.
+states covering every kind of decision. The release review added an explicit
+server-side migration for existing saved games, including undo snapshots and
+clocks, plus a pre-upgrade SQLite backup. Existing games continue after deploy.
 
 **The screen sweep.** `npm run test:ux-sweep` renders every saved state
 at four window sizes (14-inch and 13-inch laptops, a 1280x720 window, a
@@ -401,3 +402,17 @@ on a phone has empty space above and below the map.
 All of the above passed at the end of M17. The work is committed on the
 `milestones` branch, one commit per milestone, to be squashed into a single
 pull request.
+
+## Release review corrections
+
+The release review supersedes the earlier proposals in BUILD-PLAN.md and
+PROPOSED-CHANGES.md on the following points:
+
+- Elder's printed “when they battle you” condition still applies. The word
+  “cannot” does not remove the condition. Galactic Rifles is not Battle.
+- A consistent SQLite backup is created in the persistent data directory before upgrading old saves.
+- Existing saved tables load through a versioned compatibility migration,
+  including undo/redo and pending rollback snapshots. Old discard order is
+  retained face down; no card is exposed or shuffled during migration.
+- Existing timer limits and elapsed time survive migration. Legacy clients
+  can still submit the previous `seconds` timer setting.

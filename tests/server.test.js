@@ -6,6 +6,7 @@ import os from "node:os";
 import path from "node:path";
 import net from "node:net";
 import { WebSocket } from "ws";
+import { DatabaseSync } from "node:sqlite";
 const delay = (ms) => new Promise((r) => setTimeout(r, ms));
 // A real server process on a free port with its own data directory. `start`
 // and `stop` can be repeated to restart it on the same data.
@@ -56,7 +57,7 @@ async function launch(t) {
     });
     return { status: response.status, data: await response.json() };
   };
-  return { port, start, stop, req };
+  return { port, dir, start, stop, req };
 }
 test("real HTTP/WebSocket server: authorization, invite-only seats, atomic revisions, privacy, persistence", async (t) => {
   const { port, start, stop, req } = await launch(t);
@@ -578,4 +579,84 @@ test("a socket that never authenticates, or sends a bad key, is closed", async (
   const code = await Promise.race([silentClosed, delay(6000).then(() => null)]);
   assert.equal(code, 1008, "closed within 6 s");
   assert.ok(Date.now() - started >= 4000, "after the 5 s grace period");
+});
+
+test("old persisted tables reconnect and save without losing cards or turn timers", async (t) => {
+  const { dir, start, stop, req } = await launch(t);
+  await start();
+  const created = (
+    await req("/api/rooms", "POST", { name: "Legacy host", players: 2 })
+  ).data;
+  const root = `/api/rooms/${created.id}`;
+  const guest = (
+    await req(root + "/join", "POST", {
+      name: "Legacy guest",
+      invite: created.invite,
+    })
+  ).data;
+  await req(root + "/start", "POST", {}, created.key);
+  await stop();
+  const db = new DatabaseSync(path.join(dir, "arcs.sqlite"));
+  const row = db.prepare("SELECT data FROM rooms WHERE id=?").get(created.id);
+  const r = JSON.parse(row.data);
+  r.game.discard = [
+    ...r.game.discardDown,
+    ...r.game.discardUp.map((x) => x.card),
+  ];
+  delete r.game.discardDown;
+  delete r.game.discardUp;
+  delete r.game.battles;
+  delete r.saveVersion;
+  const before = structuredClone(r.game);
+  r.options.timer = { mode: "live", seconds: 60, expiry: "auto" };
+  r.clock.config = { ...r.options.timer };
+  r.clock.paused = true;
+  r.clock.spent = [10000, 20000];
+  db.prepare("UPDATE rooms SET data=? WHERE id=?").run(
+    JSON.stringify(r),
+    created.id,
+  );
+  db.close();
+  await start();
+  const backup = new DatabaseSync(
+    path.join(dir, "backups/before-save-v1.sqlite"),
+  );
+  const preserved = JSON.parse(
+    backup.prepare("SELECT data FROM rooms WHERE id=?").get(created.id).data,
+  );
+  backup.close();
+  assert.deepEqual(preserved.game.discard, before.discard);
+  assert.deepEqual(preserved.game.players, before.players);
+  const restored = await req(root, "GET", null, created.key);
+  assert.equal(restored.status, 200);
+  assert.deepEqual(restored.data.game.players[0].hand, before.players[0].hand);
+  assert.equal(
+    restored.data.game.players[1].hand,
+    before.players[1].hand.length,
+  );
+  assert.deepEqual(restored.data.game.pieces, before.pieces);
+  assert.equal(restored.data.game.discardDownCount, before.discard.length);
+  assert.deepEqual(restored.data.game.discardUp, []);
+  assert.equal(restored.data.clock.config.turn, 60);
+  assert.equal(
+    restored.data.clock.remainingMs,
+    60000 - r.clock.spent[r.clock.actor],
+  );
+  assert.equal(restored.data.clock.paused, true);
+  const saved = await req(
+    root + "/timer",
+    "POST",
+    { revision: restored.data.game.revision, operation: "pause" },
+    created.key,
+  );
+  assert.equal(saved.status, 200);
+  const check = new DatabaseSync(path.join(dir, "arcs.sqlite"));
+  const stored = JSON.parse(
+    check.prepare("SELECT data FROM rooms WHERE id=?").get(created.id).data,
+  );
+  check.close();
+  assert.equal(stored.saveVersion, 1);
+  assert.deepEqual(stored.game.discardDown, before.discard);
+  assert.equal(stored.game.discard, undefined);
+  assert.equal((await req(root, "GET", null, guest.key)).status, 200);
 });

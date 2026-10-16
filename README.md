@@ -29,7 +29,7 @@ npm run build
 npm start
 ```
 
-Stop the previous local server before restarting. Cards, artwork, and reference data are bundled and work locally without contacting a publisher server. Your own games are saved locally; private games and credentials from other installations are never included in this repository.
+Stop the previous local server before restarting. Existing saved tables and turn timers are upgraded automatically. Before the first upgrade, the server keeps a SQLite snapshot at `DATA_DIR/backups/before-save-v1.sqlite` (locally, `var/backups/before-save-v1.sqlite`). Keep that backup private. Cards, artwork, and reference data are bundled and work locally without contacting a publisher server. Your own games are saved locally; private games and credentials from other installations are never included in this repository.
 
 `npm run verify:assets` checks every bundled asset against its recorded checksum and confirms all 115 card images are present. This check also runs before tests, builds, and the development server.
 

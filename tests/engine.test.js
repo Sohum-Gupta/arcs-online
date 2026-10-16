@@ -2282,13 +2282,14 @@ for (const when of ["bonusAfter", "bonusBefore"])
   });
 
 // ---- M5: battle decision fixes (A2, A10, A11) ----
-// Rifles hits are not battle hits (`battle: false`); Elder immunity to Ransack
-// must hold regardless.
-for (const [leader, ransacks] of [
-  ["LEAD01", false],
-  ["LEAD02", true],
+// Elder protects only battles. Galactic Rifles is a new action, not Battle;
+// its FAQ explicitly excludes abilities that modify Battle.
+for (const [leader, battle, ransacks] of [
+  ["LEAD01", false, true],
+  ["LEAD01", true, false],
+  ["LEAD02", false, true],
 ])
-  test(`Galactic Rifles destroying a city of ${leader} ${ransacks ? "ransacks" : "pushes no ransack"}`, () => {
+  test(`${battle ? "Battle" : "Galactic Rifles"} destroying a city of ${leader} ${ransacks ? "ransacks" : "pushes no ransack"}`, () => {
     let s = clear(fixture());
     s.players[1].leader = leader;
     const city = place(s, 1, "city", "1-arrow", 1, true)[0];
@@ -2302,7 +2303,7 @@ for (const [leader, ransacks] of [
       dealer: 0,
       left: 1,
       kind: "hit",
-      battle: false,
+      battle,
     });
     s = choose(s, "hit", (c) => c.piece === city);
     assert.ok(!s.pieces.some((x) => x.id === city));
